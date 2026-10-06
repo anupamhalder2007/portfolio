@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anupam Halder — 3D Artist, 3D Generalist and Visual Storyteller.">
+  <title>Anupam Halder — 3D Artist & Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Anupam home">
+      <span class="brand-dot"></span>
+      <span>Anupam</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#work">Portfolio</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">— Hi, I'm</span>
+        <h1>Anupam<span class="accent">.</span></h1>
+        <p class="hero-role">3D Artist <span>|</span> 3D Lighting <span>|</span> FX Rendering</p>
+        <p class="hero-text">
+          I bring ideas to life through 3D, blending creativity and technology
+          to create immersive worlds, characters and experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore my work <span>→</span></a>
+          <a class="text-link" href="#contact">Let's talk ↗</a>
+        </div>
+        <div class="socials" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/anupam-halder-4b36383b1" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="https://www.behance.net/anupamhalder7" target="_blank" rel="noopener" aria-label="Behance">Bē</a>
+          <a href="https://mail.google.com/mail/?view=cm&fsto=Anupamhalder471@gmail.com" target="_blank" class="contact-btn cb-primary">✉</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1">
+        <div class="hero-orbit"></div>
+        <div class="hero-photo">
+          <img src="assets/profile.jpg" alt="Portrait of Anupam Halder">
+        </div>
+        <img class="hero-chibi" src="assets/chibi.png" alt="Anupam's 3D chibi artwork">
+        <div class="hero-tag tag-top">3D ARTIST</div>
+        <div class="hero-tag tag-bottom">MODEL • LIGHT • CREATE</div>
+        <div class="scribble note">always<br>creating<br>✦</div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="polaroid reveal">
+        <div class="portrait"><img src="assets/profile.jpg" alt="Anupam Halder"></div>
+        <span>always curious</span>
+      </div>
+      <div class="about-copy reveal">
+        <span class="section-kicker">A little about me</span>
+        <h2>Small steps.<br><span>Big dreams.</span></h2>
+        <p>
+          I'm Anupam Halder, a 3D Artist specializing in modeling and lighting. Through different projects, I keep pushing myself to learn, experiment and improve with every visual I create. I enjoy turning ideas into detailed 3D characters, environments and cinematic scenes.
+        </p>
+        <div class="about-meta">
+          <span>✦ 3D Art</span>
+          <span>✦ Lighting</span>
+          <span>✦ Realistic Rendering</span>
+        </div>
+        <a class="btn btn-outline" href="assets/cv.jpg" download="Anupam-Halder-CV.jpg">Download CV ↓</a>
+      </div>
+    </section>
+
+    <section class="skills section reveal">
+      <div class="section-heading light">
+        <div>
+          <span class="section-kicker">My toolkit</span>
+          <h2>Tools I love <span>using.</span></h2>
+        </div>
+        <span class="hand-note">made with curiosity ↗</span>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill"><div class="skill-icon ma">Bl</div><strong>Blender</strong><small>Lighting / Rendering</small></article>
+        <article class="skill"><div class="skill-icon ma">Ma</div><strong>Maya</strong><small>3D / Modeling</small></article>
+        <article class="skill"><div class="skill-icon ps">Ps</div><strong>Photoshop</strong><small>Compositing</small></article>
+        <article class="skill"><div class="skill-icon ai">Ai</div><strong>Illustrator</strong><small>Design</small></article>
+        <article class="skill"><div class="skill-icon ae">A</div><strong>After Effects</strong><small>Motion</small></article>
+        <article class="skill"><div class="skill-icon max">Z</div><strong>ZBrush</strong><small>Sculpting</small></article>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">Selected work</span>
+          <h2>My <span>portfolio.</span></h2>
+        </div>
+        <span class="hand-note">tap a project to explore →</span>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="environment">Environments</button>
+        <button class="filter" data-filter="modeling">3D Modeling</button>
+        <button class="filter" data-filter="character">Characters</button>
+        <button class="filter" data-filter="concept">Concept</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-wide dark-card reveal" data-category="character" data-title="Character Modeling" data-description="A stylized 3D character model built with a clean low-poly aesthetic and expressive silhouette." data-image="assets/anupam character full.jpeg">
+          <div class="project-copy">
+            <span class="project-number">01</span>
+            <h3>Character<br>Modeling</h3>
+            <p>Stylized character modeling with simple forms, proportions and clean presentation.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+          <div class="project-visual image-visual"><img src="assets/anupam character full.jpeg" alt="3D character modeling project"></div>
+        </article>
+
+        <article class="project-card project-wide dark-card reveal" data-category="character" data-title="Character Modeling" data-description="A stylized 3D character model built with a clean low-poly aesthetic and expressive silhouette." data-image="assets/blox.png">
+          <div class="project-copy">
+            <span class="project-number">02</span>
+            <h3>Character<br>Modeling</h3>
+            <p>Stylized character modeling with simple forms, proportions and clean presentation.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+          <div class="project-visual image-visual"><img src="assets/blox.png" alt="3D character modeling project"></div>
+        </article>
+        <article class="project-card project-tall light-card reveal delay-1" data-category="environment" data-title="Environment Lighting" data-description="A rooftop environment study focused on architecture, lighting, composition and realistic shadows." data-image="assets/city.png">
+          <div class="project-visual image-visual"><img src="assets/city.png" alt="3D rooftop environment lighting project"></div>
+          <div class="project-copy">
+            <span class="project-number">03</span>
+            <h3>Environment<br>Lighting</h3>
+            <p>Architectural environment with a focus on lighting, atmosphere and realism.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card project-wide light-card reveal" data-category="modeling" data-title="3D Robot Model" data-description="A blocky robot asset exploring hard-surface forms, proportions, materials and studio lighting." data-image="assets/model-mech.png">
+          <div class="project-visual image-visual"><img src="assets/model-mech.png" alt="3D robot model project"></div>
+          <div class="project-copy">
+            <span class="project-number">04</span>
+            <h3>3D Robot<br>Model</h3>
+            <p>Hard-surface modeling exercise built around bold geometric forms.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card project-wide light-card reveal" data-category="modeling" data-title="3D Robot Model" data-description="A blocky robot asset exploring hard-surface forms, proportions, materials and studio lighting." data-image="assets/robo3l.png">
+          <div class="project-visual image-visual"><img src="assets/robo3l.png" alt="3D robot model project"></div>
+          <div class="project-copy">
+            <span class="project-number">05</span>
+            <h3>3D Robot<br>Model</h3>
+            <p>Hard-surface modeling exercise built around bold geometric forms.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card project-wide dark-card reveal" data-category="environment" data-title="Gas Station Render" data-description="A moody gas station scene designed around dramatic low-key lighting and atmospheric depth." data-image="assets/gas.png">
+          <div class="project-copy">
+            <span class="project-number">06</span>
+            <h3>Gas Station<br>Render</h3>
+            <p>Moody environment study using cinematic lighting and atmosphere.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+          <div class="project-visual image-visual"><img src="assets/gas.png" alt="Gas station 3D render"></div>
+        </article>
+
+        <article class="project-card project-wide light-card reveal" data-category="concept" data-title="Temple Render" data-description="A classical architectural model exploring symmetry, columns, domes and clean architectural presentation." data-image="assets/temple.png">
+          <div class="project-visual image-visual"><img src="assets/temple.png" alt="Classical temple 3D render"></div>
+          <div class="project-copy">
+            <span class="project-number">07</span>
+            <h3>Temple<br>Render</h3>
+            <p>Architectural modeling study with classical forms and detailed structure.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article>
+
+        <article class="project-card project-wide light-card reveal" data-category="concept" data-title="Cyberpunk Night Study" data-description="A darker lighting pass of a cyberpunk environment, focusing on silhouettes, practical lights and controlled contrast." data-image="assets/cyber-day.png">
+          <div class="project-visual image-visual"><img src="assets/cyber-day.png" alt="Cyberpunk night lighting study"></div>
+          <div class="project-copy">
+            <span class="project-number">08</span>
+            <h3>Cyberpunk<br>Night Study</h3>
+            <p>Low-light cinematic study built around silhouette and practical lighting.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article> 
+
+        <article class="project-card project-wide light-card reveal" data-category="concept" data-title="Cyberpunk Night Study" data-description="A darker lighting pass of a cyberpunk environment, focusing on silhouettes, practical lights and controlled contrast." data-image="assets/cyber-night.png">
+          <div class="project-visual image-visual"><img src="assets/cyber-night.png" alt="Cyberpunk night lighting study"></div>
+          <div class="project-copy">
+            <span class="project-number">09</span>
+            <h3>Cyberpunk<br>Night Study</h3>
+            <p>Low-light cinematic study built around silhouette and practical lighting.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article> 
+        
+<article class="project-card project-wide light-card reveal" data-category="concept" data-title="Cyberpunk Night Study" data-description="A darker lighting pass of a cyberpunk environment, focusing on silhouettes, practical lights and controlled contrast." data-image="assets/wooden house.png">
+          <div class="project-visual image-visual"><img src="assets/wooden house.png" alt="Cyberpunk night lighting study"></div>
+          <div class="project-copy">
+            <span class="project-number">10</span>
+            <h3>Wooden House<br></h3>
+            <p> Modeling study with classical forms and detailed structure.</p>
+            <button class="project-open">View project ↗</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+      <div>
+        <span class="section-kicker">Have an idea?</span>
+        <h2>Let's build something<br><span>amazing.</span></h2>
+        <p>Have a 3D project, collaboration or an interesting idea? I'd love to hear it.</p>
+      </div>
+      <a class="btn btn-primary" href="mailto:Anupamhalder471@gmail.com">Get in touch →</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+     <span>© <span id="year"></span> Anupam Halder</span>
+      <span>Made with VS Code & ☕</span>
+      <a href="#home">Back to top ⬆️ </a>
+</div>
+  </footer>
+
+  <div class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close project">×</button>
+      <div class="modal-art" id="modal-art"></div>
+      <div>
+        <span class="section-kicker">Selected project</span>
+        <h2 id="modal-title">Project title</h2>
+        <p id="modal-description"></p>
+        <a class="btn btn-primary" href="mailto:Anupamhalder471@gmail.com">Discuss a project →</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
